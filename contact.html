@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title>Department of Computer Engineering, University of Peradeniya</title>
+    <meta name="description" content="Looking forward to welcome aspiring Engineering undergraduates to the Wonderful World of Computer Engineering">
+
+    <meta charset="utf-8">
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="includes/css/styles.css">
+
+<!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="includes/js/jquery-1.8.2.min.js"></script>
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+    <script src="includes/js/script.js"></script>
+    <style type="text/css">
+        .contact-icons {
+            font-size: 30px;
+        }
+        .contact_icons{
+            margin-right: 20px;
+        }
+        .contact_subheading{
+            font-style: italic;
+            width: 50px;
+            display: inline-block;
+        }
+        @media only screen and (min-width: 1280px) {
+            #googleMap{
+                height:400px;width:280px;
+                position: relative;
+                /*float:right;*/
+                top: 150px;
+                right: 0px;
+            }
+            .contact_item{
+                width: 400px;
+                padding: 20px;
+                margin: 10px;
+                /*border: #eee solid thin;*/
+                float: left;
+            }
+/*            #contact_queriesEmail{
+                top:-80px; position:relative;
+            }
+            #contact_aces{
+                top:-150px; position:relative;
+            }*/
+        }
+        @media only screen and (max-width: 1279px) {
+            #googleMap{
+                height:400px;width:100%;
+                margin-bottom: 30px;
+            }
+            .contact_item{
+                width: 100%;
+                padding: 20px;
+                margin: 10px;
+                /*border: #eee solid thin;*/
+            }
+        }
+    </style>
+	
+	<!-- Content is loaded using javascript -->
+	<script> 
+    $(function(){
+      $("#includedContent").load("navbar.html"); 
+    });
+	$(function(){
+      $("#includedContent3").load("footer.html"); 
+    });
+    </script>
+	
+</head>
+
+<body>
+
+    <div class="container" style="background-color:#181818;" id="main">
+
+        <!-- Navbar -->
+		<div id="includedContent" ></div>
+
+        <div class="container innerpage">
+            <div id="googleMap" class="pull-right"></div>
+            <article class="custom-inner-article" id="contacts_holder" style="position:relative;">
+                <hgroup class="page-header">
+                    <h1>Contact us</h1>
+                </hgroup>
+                <!-- Set height and width with CSS -->
+                <div class="contact_item">
+                    <img src="images/contact_postal.png" alt="" align="left" class="contact_icons">
+                    <h5>Postal Address</h5>
+                    <div class="container" style="margin-left: 52px;">
+                        Department of Computer Engineering <br>
+                        Faculty of Engineering<br>
+                        University of Peradeniya<br>
+                        Peradeniya 20400<br>
+                        Sri Lanka<br>
+                    </div>
+                </div>
+                <div class="contact_item">
+                    <img src="images/contact_phone.png" alt="" align="left" class="contact_icons">
+                    <h5>Head Office</h5>
+                    <div class="container" style="margin-left: 52px;">
+                        <span class="contact_subheading">Tel</span>+94 81 2393470/1 <br>
+                        <span class="contact_subheading"></span>+94 81 2393914<br>
+                        <span class="contact_subheading">Email</span>headce@pdn.ac.lk<br>
+                    </div>
+                </div>
+                <div  id="contact_queriesEmail" class="contact_item">
+                    <img src="images/contact_email.png" alt="" align="left" class="contact_icons">
+                    <h5>Queries about department activities</h5>
+                    <div class="container" style="margin-left: 52px;">
+                        headce@pdn.ac.lk <br>
+                    </div>
+                </div>
+                <div class="contact_item">
+                    <img src="images/contact_phone.png" alt="" align="left" class="contact_icons">
+                    <h5>Instructors Room</h5>
+                    <div class="container" style="margin-left: 52px;">
+                        +94 81 2393474 <br>
+                        +94 81 2393911<br>
+                    </div>
+                </div>
+                <div id="contact_aces" class="contact_item">
+                    <img src="images/contact_aces.png" alt="" align="left" class="contact_icons">
+                    <h5 style="margin-left: 52px;">Staff Members</h5>
+                    <div class="container" style="margin-left: 52px;">
+                        Goto the Staff menu<br>
+                    </div>
+                </div>					
+                <div id="contact_aces" class="contact_item">
+                    <img src="images/contact_aces.png" alt="" align="left" class="contact_icons">
+                    <h5 style="margin-left: 52px;">Association of Computer Engineering Students</h5>
+                    <div class="container" style="margin-left: 52px;">
+                        aces@ce.pdn.ac.lk <br>
+                    </div>
+                </div>
+			
+
+            </article>
+
+            <!-- Add Google Maps -->
+            <script src="http://maps.googleapis.com/maps/api/js"></script>
+            <script>
+                var mapCenter = new google.maps.LatLng(7.253915, 80.591909);
+                var LocationCenter = new google.maps.LatLng(7.254656, 80.591210);
+
+                function initialize() {
+                    var mapProp = {
+                        center: mapCenter,
+                        zoom: 17,
+                        scrollwheel: false,
+                        draggable: true,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+
+                    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+                    var marker = new google.maps.Marker({
+                        position: LocationCenter,
+                    });
+
+                    marker.setMap(map);
+                }
+
+                google.maps.event.addDomListener(window, 'load', initialize);
+            </script>
+        </div>
+
+
+
+    </div>
+    <!-- end container -->
+
+    <!-- footer -->
+	<div id="includedContent3" ></div>
+
+
+
+    <!-- All Javascript at the bottom of the page for faster page loading -->
+
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>
+        window.jQuery || document.write('<script src="includes/js/jquery-1.9.1.min.js"><\/script>')
+        // window.onload = function(){
+        //     var container = document.getElementById("contacts_holder");
+        //     document.getElementById("googleMap").style.right = (window.innerWidth - container.offsetWidth)/2 + 10 + "px";
+        //     // alert(document.getElementById("googleMap").style.right);
+        // }
+        // window.onresize=function(){
+        //     var container = document.getElementById("contacts_holder");
+        //     document.getElementById("googleMap").style.right = (window.innerWidth - container.offsetWidth)/2 + 10 + "px";
+        // };
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="includes/js/script.js"></script>
+</body>
+
+</html>

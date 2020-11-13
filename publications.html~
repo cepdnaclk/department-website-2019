@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <!-- Website Title & Description for Search Engine purposes -->
+    <title>Department of Computer Engineering, University of Peradeniya</title>
+    <meta name="description" content="Looking forward to welcome aspiring Engineering undergraduates to the Wonderful World of Computer Engineering">
+
+    <!-- Mobile viewport optimized -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="includes/css/styles.css">
+
+<!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="includes/js/jquery-1.8.2.min.js"></script>
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+    <script src="includes/js/script.js"></script>
+	
+	<!-- Content is loaded using javascript -->
+	<script> 
+    $(function(){
+      $("#includedContent").load("navbar.html"); 
+    });
+	 $(function(){
+      $("#includedContent2").load("data/inner_publications.html"); 
+    });
+	$(function(){
+      $("#includedContent3").load("footer.html"); 
+    });
+    </script>
+	
+	        <script type="text/javascript">
+            $(function () {
+                $('.entry-content').hide();
+
+                $('a.read').click(function () {
+                    $(this).parent('.excerpt').hide();
+                    $(this).closest('.tenant').find('.entry-content').slideDown('fast');
+                    return false;
+                });
+                $('a.read-less').click(function () {
+                    $(this).parent('.entry-contents').slideUp('fast');
+                    $(this).parent('.entry-content').slideUp('fast');
+                    $(this).closest('.tenant').find('.excerpt').show();
+                    return false;
+                });
+
+//                    $("#rand1").click(function(){
+//                        alert("uuuuuuuuuuuuuuuuuuuuuuuuuuu");
+//                        $("a.read:first").show();
+//                    });
+
+
+            });
+
+
+        </script>
+		<style type="text/css">
+		.tenant-header h1{
+			font-size:28px;
+		}
+		hr{
+		border-top: 3px solid #eeeeee;
+		}
+		</style>
+		
+	
+</head>
+
+<body>
+
+    <div class="container" style="background-color:#181818;" id="main">
+
+
+	<!-- Navbar -->
+	<div id="includedContent" ></div>
+	<!-- Body content -->
+<div id="main" class="container innerpage">
+<div id="container" class="cf" style="font-family: Varela, Arial, Sans-serif ;">
+
+    <br>
+<h2 style="color:#079AEA;">Departmental Publications</h2><hr>
+    <br>
+
+
+
+    <article class="tenant">
+        <div class="tenant-header">
+  		<h1>2016</h1>
+		</div>
+		<div class="excerpt"><a href="" class="read">Read More</a>  </div>
+		<div id = 'rand1' class="entry-content cf"><ol>
+		<li>Nawinne, Isuru; Javaid, Haris; Ragel, Roshan; Parameswaran, Sri: 'Switchable cache: utilising dark silicon for application specific cache optimisations', IET Computers & Digital Techniques, 2016, 
+		DOI: 10.1049/iet-cdt.2015.0114 IET Digital Library, http://digital-library.theiet.org/content/journals/10.1049/iet-cdt.2015.0114</li>
+
+		</ol>
+   	<a href="" class="read-less">Read Less</a></div>
+	</article>
+						
+	<hr>
+
+
+
+
+
+
+    <article class="tenant">
+        <div class="tenant-header">
+
+		 <h1>2015</h1>
+		</div>
+<!--        <div  --><!-- class="entry-content cf">--><!--</div>-->
+
+
+	<div class="excerpt"><a href="" class="read">Read More</a>  </div>
+	<div id = 'rand1' class="entry-content cf"><ol>
+			<li align="justify">Suneth Namal, Hasindu Gamaarachchi, Gyu Myoung Lee, Tai-Won Um, <strong>Autonomic Trust Management in Cloud-based and Highly Dynamic IoT Applications</strong>, in the Processings of the Trust in the Information Society, Barcelona, Spain, Dec 2015</li>
+<li align="justify">Isuru Nawinne, Haris Javaid, Roshan Ragel, Swarnalatha Radhakrishnan, Sri Parameswaran, <strong>Exploring Multi-Level Cache Hierarchies in Application Specific MPSOCs</strong>, in Computer-Aided Design of Integrated Circuits and Systems, IEEE Transactions on, Vol. 34, No. 12, pp. 1991 &#8211; 2003, Dec 2015</li>
+<li align="justify">Suthaharan Satkunarajah, Krishanthmohan Ratnam, and Roshan Ragel, <strong>Pre-configured Backup Protection with Limited Resource Sharing in Elastic Optical Networks</strong>, in Proceedings of the 10th IEEE International Conference on Industrial and Information Systems 2015 (ICIIS&#8217;2015), Peradeniya, Sri Lanka, Dec 2015</li>
+<li align="justify">Hasindu Gamaarachchi, Bhanuka Bandara, and Roshan Ragel, <strong>The A to Z of Building a Testbed for Power Analysis Attacks</strong>, in Proceedings of the 10th IEEE International Conference on Industrial and Information Systems 2015 (ICIIS&#8217;2015), Peradeniya, Sri Lanka, Dec 2015</li>
+<li align="justify">Roshan Wicramasingha, Akila Keerawella, Ajitha Samarasinghe and Roshan Ragel, <strong>RotateCAPTCHA: A Novel Interactive CAPTCHA Design Targeting Mobile Devices</strong>, in Proceedings of the 10th IEEE International Conference on Industrial and Information Systems 2015 (ICIIS&#8217;2015), Peradeniya, Sri Lanka, Dec 2015</li>
+<li align="justify">MAC Jiffriya, MAC Akmal Jahan, Hasindu Gamaarachchi, and Roshan Ragel, <strong>Accelerating Text Based Plagiarism Detection using GPUs</strong>, in Proceedings of the 10th IEEE International Conference on Industrial and Information Systems 2015 (ICIIS&#8217;15), Peradeniya, Sri Lanka, Dec 2015</li>
+<li align="justify">PT Abeyrathne, SD Dewasurendra, D Elkaduwe, <strong>Strategy to Design Formally Verified hardware/software implementation of Network Protocols on Reconfigurable Hardware</strong>,in Proceedings of the 10th IEEE International Conference on Industrial and Information Systems 2015 (ICIIS&#8217;2015), Peradeniya, Sri Lanka, Dec 2015</li>
+<li align="justify">Hasindu Gamaarachchi, Harsha Ganegoda and Roshan Ragel, <strong>Testbed for Power Analysis Attack Based on the Arduino Prototyping Board</strong>, Proceedings of the Peradeniya University International Research Sessions 2015 (iPURSE15), University of Peradeniya, Sri Lanka, Nov. 2015.</li>
+<li align="justify">SM Vidanagamachchi, SD Dewasurendra, M Niranjan, <strong>METABOLOMIC ANALYSIS OF HUMAN NON-SMALL CELL LUNG CANCER</strong>, Proceedings of the Peradeniya University International Research Sessions 2015 (iPURSE15), University of Peradeniya, Sri Lanka, Nov. 2015.</li>
+<li align="justify">Darshana Jayasinghe, Angelo Ambrose, Roshan Ragel, Aleksandar Ignjatovic, Sri Parameswaran, <strong>QuadSeal: Quadruple Algorithmic Symmetrizing Countermeasure Against Power Based Side-channel Attacks</strong>, CASES 2015, Amsterdam, The Netherlands, October 2015.</li>
+<li align="justify">Kamalanath Samarakoon, T.M.S.S.K.Y. Ekanayake, and S.D.K. Wijesundara, <strong>Novel Way of using mobile phones for outside learning activity</strong>, in Literacy Information and Computer Education Journal (LICEJ), Vol. 6, No. 3, Sep 2015</li>
+<li align="justify">Ijaz Ahmad, Suneth Namal, Mika Ylianttila, Andrei Gurtov, <strong>Towards software defined cognitive networking</strong>, in Proceedings of the 7th International Conference on New Technologies, Mobility and Security (NTMS), July 2015</li>
+<li align="justify">Tilani Gunawardena, Nishara Pathirana, Medhavi Lokuhetti, Roshan Ragel, and Sampath Deegalla, <strong>Performance Evaluation Techniques for an Automatic Question Answering System</strong></a>, International Journal of Machine Learning and Computing vol. 5, no. 4, pp. 294-300, 2015.</li>
+<li align="justify">Tilani Gunawardena, Nishara Pathirana, Medhavi Lokuhetti, Roshan Ragel, Sampath Deegalla, <strong>Performance Evaluation Techniques for an Automatic Question Answering System</strong></a>, 7th Conference on Machine Learning and Computing (ICMLC 2015), March 2015</li>
+<li align="justify">Jude Angelo Ambrose, Roshan G. Ragel, Darshana Jayasinghe, Tuo Li and Sri Parameswaran, <strong>Side Channel Attacks in Embedded Systems: A Tale of Hostilities and Deterrence</strong></a>, ISQED, Santa Clara, CA, USA, March 2015</li>
+<li align="justify">Ijaz Ahmad, Suneth Namal, Mika Ylianttila, and Andrei Gurtov, <strong>Security in software defined networks: A survey</strong>, in IEEE Communications Surveys &amp; Tutorials, Vol. 17, No. 4, Jan 2015</li>
+<li align="justify">Suneth Namal, Ijaz Ahmad, Saad Saud, Markku Jokinen, Andrei Gurtov, <strong>Implementation of OpenFlow based cognitive radio network architecture: SDN&R</strong>, in Wireless Networks, Jan 2015</li>
+<li align="justify">Kotugodage Supun Nalaka, Kotugodage Sujith Nadeera and Roshan Ragel, <strong>Intelligent Solar Tracking System by Using Location Data, Patent Pending</strong>, LK Patent Application Number LK/P/1/18080, Filed on January 06, 2015</li>
+</ol>
+<a href="" class="read-less">Read Less</a></div>
+<!--     <div class="excerpt">--><!--<a href="" class="read">Read More</a>  </div>-->
+
+
+    </article>
+
+	<hr>
+    <article class="tenant">
+        <div class="tenant-header">
+
+
+             <h1>2014</h1>
+            </div>
+
+<!--        <div  --><!-- class="entry-content cf">--><!--</div>-->
+
+
+        <div class="excerpt"><a href="" class="read">Read More</a>  </div>
+        <div id = 'rand2' class="entry-content cf"><ol>
+<li align="justify">V Thambawita, R Ragel, D Elkaduwe ,To Use or Not to Use: Graphics Processing Units for Pattern Matching Algorithms,7th International Conference on Information and Automation for Sustainability (ICIAfS), (2014) December 2014 ,Colombo Sri Lanka.</li>
+<li align="justify">D Jayasinghe, R Ragel, JA Ambrose, A Ignjatovic, S Parameswaran,Advanced modes in AES: Are they safe from power analysis based side channel attacks?,32nd IEEE International Conference on Computer Design (ICCD),(2014) October 2014,Seoul Korea.</li>
+<li align="justify">MAC Jiffriya, MAC Akmal Jahan, RG Ragel,Plagiarism detection on electronic text based assignments using vector space model,7th International Conference on Information and Automation for Sustainability (ICIAfS), (2014) December 2014 ,Colombo Sri Lanka.</li>
+<li align="justify">SM Vidanagamachchi, SD Dewasurendra, RG Ragel, M Niranjan,A Structured Hardware Software Architecture for Peptide Based Diagnosis of Baylisascaris Procyonis Infection,7th International Conference on Information and Automation for Sustainability (ICIAfS), (2014) December 2014 ,Colombo Sri Lanka.</li>
+<li align="justify">GI Gunarathna, MAP Chamikara, RG Ragel,A Fuzzy Based Model to Identify Printed Sinhala Characters,7th International Conference on Information and Automation for Sustainability (ICIAfS), (2014) December 2014 ,Colombo Sri Lanka.</li>
+<li align="justify">T Abeysinghe, N Hassan, RG Ragel,A feasibility study on programmer specific instruction set processors,7th International Conference on Information and Automation for Sustainability (ICIAfS), (2014) December 2014 ,Colombo Sri Lanka</li>
+<li align="justify">M Salgado, RG Ragel,Register spilling for specific application domains in ASIPs,7th International Conference on Information and Automation for Sustainability (ICIAfS), (2014) December 2014 ,Colombo Sri Lanka</li>
+<li align="justify">N Dayarathne, R Ragel,ccelerating Rabin Karp on a Graphics Processing Unit (GPU) using Compute Unified Device Architecture (CUDA),7th International Conference on Information and Automation for Sustainability (ICIAfS), (2014) December 2014 ,Colombo Sri Lanka</li>
+<li align="justify">H Gamaarachchi, R Ragel, D Jayasinghe,Accelerating correlation power analysis using graphics processing units (GPUs),7th International Conference on Information and Automation for Sustainability (ICIAfS), (2014) December 2014 ,Colombo Sri Lanka</li>
+<li align="justify">MAC Akmal Jahan, RG Ragel,Locating tables in scanned documents for reconstructing and republishing,7th International Conference on Information and Automation for Sustainability (ICIAfS), (2014) December 2014 ,Colombo Sri Lanka</li>
+<li align="justify">IP Ratnapala, RG Ragel, S Deegalla,Students behavioural analysis in an online learning environment using data mining,7th International Conference on Information and Automation for Sustainability (ICIAfS), (2014) December 2014, Colombo Sri Lanka</li>
+<li align="justify">S Satkunarajah, K Ratnam, RG Ragel,Efficient switch architectures for pre-configured backup protection with sharing in elastic optical networks,7th International Conference on Information and Automation for Sustainability (ICIAfS), (2014) December 2014 ,Colombo Sri Lanka</li>
+<li align="justify">SM Vidanagamachchi, S Devapriya Dewasurendra, RG Ragel, M Niranjan, A structured hardware software architecture for peptide based diagnosis - Sub-string matching problem with limited tolerance,7th International Conference on Information and Automation for Sustainability (ICIAfS), (2014) December 2014 ,Colombo Sri Lanka</li>
+<li align="justify">CB Bulumulla, RG Ragel,LineCAPTCHA Mobile: A User Friendly Replacement for Unfriendly Reverse Turing Tests for Mobile Devices,7th International Conference on Information and Automation for Sustainability (ICIAfS), (2014) December 2014 ,Colombo Sri Lanka</li>
+<li align="justify">Jiffriya Carder and Roshan Ragel Akmal Jahan,Locating Tables in Scanned Documents with Heterogeneous Layout,Annual Science Research Session(ASRS-2014),November 2014,South Eastern University of Sri Lanka</li>
+<li align="justify">CMM Mansoor, RG Ragel, S Radhakrishnan,Embedded System: Enhancement of performance with new challenges and Solutions,South Eastern University Arts Research Session (SEUARS)(2014),December 2014,Faculty of Arts &amp; Culture South Eastern University of Sri Lanka Oluvil Sri Lanka</li>
+<li align="justify">CMM Mansoor, RG Ragel, S Radhakrishnan,Reconfigurable Computing: innovative technology for scientific community,South Eastern University Arts Research Session (SEUARS)(2014),December 2014,Faculty of Arts &amp; Culture South Eastern University of Sri Lanka Oluvil Sri Lanka</li>
+<li align="justify">Jiffriya Carder and Roshan Ragel Akmal JahanLocating Tables in Scanned Documents with Heterogeneous Layout,Annual Science Research Session(ASRS-2014),November 2014,South Eastern University of Sri Lanka</li>
+<li align="justify">Y Amirthagunaraj, FM Fazil, MMA Sawsan, PJ Binduhewa, JB Ekanayake, KM Liyanage, A Atputharajah, K Samarakoon,Photovoltaic Emulator for Smart Grid Test Facility ,Peradeniya University International Research Sessions(iPURSE)2014, July 2014,University of Peradeniya ,Sri Lanka</li>
+<li align="justify">SY Ekanayake, K Samarakoon, SDK Wijesundara,Effective way of facilitating outside science learning activities using mobile phones in private network,Peradeniya University International Research Sessions(iPURSE)2014, July 2014,University of Peradeniya ,Sri Lanka</li>
+</ol>
+<a href="" class="read-less">Read Less</a></div>
+<!--     <div class="excerpt">--><!--<a href="" class="read">Read More</a>  </div>-->
+
+
+    </article>
+
+	<hr>
+    <article class="tenant">
+        <div class="tenant-header">
+
+
+             <h1>2013</h1>
+            </div>
+
+<!--        <div  --><!-- class="entry-content cf">--><!--</div>-->
+
+
+        <div class="excerpt"><a href="" class="read">Read More</a>  </div>
+        <div id = 'rand3' class="entry-content cf"><ol>
+<li align="justify">S. M. Vidanagamachchi, S. D. Dewasurendra, R.G. Ragel, Hardware Accelerated Protein Inference Framework, Eighth International Conference on Industrial &amp; Information Systems (ICIIS 2013), December 2013, Kandy, Sri Lanka, IEEE, Kandy, Sri Lanka</li>
+<li align="justify">A.C. Vidanapathirana, Shirley Devapriya Dewasurendra, S.G. Abeyratna, Model in the loop testing of Complex Reactive Systems, Eighth International Conference on Industrial &amp; Information Systems (ICIIS 2013), December 2013, Kandy, Sri Lanka, IEEE, Kandy, Sri Lanka</li>
+<li align="justify">S. M. Vidanagamachchi, S. D. Dewasurendra, R.G. Ragel, Hardware Software Co-design of the Aho-Corasick Algorithm: Scalable for Protein Identification?, Eighth International Conference on Industrial &amp; Information Systems (ICIIS 2013), December 2013, Kandy, Sri Lanka, IEEE, Kandy, Sri Lanka</li>
+<li align="justify">Arudchutha Subramaniam, Roshan Ragel, Nishanthy Tharmakulasingam, String Matching with Multicore CPUs: Performing Better with the Aho-Corasick Algorithm, Eighth International Conference on Industrial &amp; Information Systems (ICIIS 2013), December 2013, Kandy, Sri Lanka, IEEE, Kandy, Sri Lanka</li>
+<li align="justify">MAC Jiffriya, MAC Akmal Jahan, Roshan Ragel and Sampath Deegalla, AntiPlag: Plagiarism Detection on Electronic Submissions of Text Based Assignments, Eighth International Conference on Industrial &amp; Information Systems (ICIIS 2013), December 2013, Kandy, Sri Lanka, IEEE, Kandy, Sri Lanka</li>
+<li align="justify">Pramitha Perera and Roshan Ragel, Accelerating Motif Finding in DNA Sequences with Multicore CPUs, Eighth International Conference on Industrial &amp; Information Systems (ICIIS 2013), December 2013, Kandy, Sri Lanka, IEEE, Kandy, Sri Lanka</li>
+<li align="justify">Roshan Ragel, Pramod Herath and Upul Senanayake, Authorship Detection of SMS Messages Using Unigrams, Eighth International Conference on Industrial &amp; Information Systems (ICIIS 2013), December 2013, Kandy, Sri Lanka, IEEE, Kandy, Sri Lanka</li>
+<li align="justify">Udyani Herath, Janaka Alawatugoda and Roshan Ragel, Software Implementation Level Countermeasures against the Cache Timing Attack on Advanced Encryption Standard, Eighth International Conference on Industrial &amp; Information Systems (ICIIS 2013), December 2013, Kandy, Sri Lanka, IEEE, Kandy, Sri Lanka</li>
+<li align="justify">MAC Akmal Jahan, AM Razmy, R.G. Ragel and S. Deegalla, Performance Analysis of Supervised Learning Classifiers for the Prediction of Child Birth Weight, Annual Science Research Sessions (ASRS13), December 2013</li>
+<li align="justify">Shirley Devapriya Dewasurendra, W.D.D.N. Jayasundara, L.P.S.Kumar, Model-based design/testing (at the H-I-L level) of the speed control sub-system of an adaptive cruise control in an automobile, Peradeniya University Research Sessions 2012, July 2013</li>
+<li align="justify">W.M.M.P.B. Wickramasinghe, D.P.S. Gamachchige, U.D.G.T. Madushanka, S.D. Dewasurendra, A.Kumarasinghe, Implementation of an autonomous driver assistance system using Swarm Intelligence, Peradeniya University Research Sessions 2012, July 2013</li>
+<li align="justify">Sithumini Ekanayake, Ruwan Ekanayake, Somasundaram Sanjayan, Sunil G. Abeyratne, Shirley Devapriya Dewasurendra, FPGA Based Elevator Controller with Improved Reliability, UKSim-AMSS 15th International Conference on Modelling and Simulation, Cambridge University (Emmanuel College) April, 2013</li>
+<li align="justify">Shirley Devapriya Dewasurendra, Formal verification strategy for statechart based design of reconfigurable control of high integrity reactive systems, ENGINEER, Journal of The Institution of Engineers, Sri Lanka, April 2013 46(2)</li>
+<li align="justify">MAC Jiffriya, MAC Akmal Jahan, Sampath Deegalla, and Roshan Ragel, Plagiarism Detection on Electronic Submissions of Text Based Assignments, Peradeniya University Research Sessions 2012, July 2013</li>
+<li align="justify">MAC Akmal Jahan, MAC Jiffriya, Sampath Deegalla, and Roshan Ragel, Application of Clustering for Natural Language Question Answering from e-Resources in a Library, Peradeniya University Research Sessions 2012, July 2013</li>
+<li align="justify">U.Senanayake, A. Sivanathan, R. G. Ragel, Evaluating a Data Level Parallelism Approach In Drug Discovery Research, Peradeniya University Research Sessions 2012, July 2013</li>
+<li align="justify">S.M. Vidanagamachchi, S.D. Dewasurendra, R.G. Ragel, M. Niranjan, Software Hardware Co-Design for Protein Identification, Peradeniya University Research Sessions 2012, July 2013</li>
+<li align="justify">D.R.V.L.B. Thambawita, N.C. Ellepola, R. G. Ragel, D. Elkaduwe, GPGPU: To Use or Not to Use?, Peradeniya University Research Sessions 2012, July 2013</li>
+<li align="justify">Babak Saghaie, Roshan Ragel, Sri Parameswaran and Aleks Ignjatovic, A Novel Intermittent Fault Markov Model for Deep Sub-Micron Processors, GLSVLSI 2013, Paris, France, May 2013</li>
+<li align="justify">Lawrance Zhang, Jude Angelo Ambrose, Roshan Ragel, Swarnalatha Radhakrishnan, Jorgen Peddersen and Sri Parameswaran, DRMA: Dynamically Reconfigurable MPSoC Architecture, GLSVLSI 2013, Paris, France, May 2013</li>
+<li align="justify">Upul Senanayake, Rahal Prabuddha and Roshan Ragel, Machine Learning based Search Space Optimisation for Drug Discovery, IEEE Symposium Series on Computational Intelligence, April 2013, Singapore</li>
+<li align="justify">Tuo Li, Muhammad Shafique, Semeen Rehman, Swarnalatha Radhakrishnan, Roshan Ragel, Jude Angelo Ambrose, Jorg Henkel and Sri Parameswaran, CSER: HW/SW Configurable Soft-Error Resiliency for Application Specific Instruction-Set Processors, Design, Automation and Test in Europe (DATE), March 2013, Grenoble, France</li>
+<li align="justify">Roshan Ragel, Jude Angelo Ambrose, Swarnalatha Radhakrishnan and Sri Parameswaran, &#8220;A Study on Instruction-set Selection using Multi-application based Application Specific Instruction-set Processors&#8221;, 26th International Conference on VLSI Design (VLSID 13), January 2013, Pune, India.</li>
+</ol>
+<a href="" class="read-less">Read Less</a></div>
+<!--     <div class="excerpt">--><!--<a href="" class="read">Read More</a>  </div>-->
+
+
+    </article>
+
+	<hr>
+    <article class="tenant">
+        <div class="tenant-header">
+
+
+             <h1>2012</h1>
+            </div>
+
+<!--        <div  --><!-- class="entry-content cf">--><!--</div>-->
+
+
+        <div class="excerpt"><a href="" class="read">Read More</a>  </div>
+        <div id = 'rand4' class="entry-content cf"><ol>
+<li align="justify">S. M. Vidanagamachchi, S. D. Dewasurendra, R. G. Ragel, and M. Niranjan, &#8220;Commentz-Walter: Any Better than Aho-Corasick for Peptide Identification?&#8221;, International Journal of Research in Computer Science, Volume 2, Issue 5, pp. 33-37, White Globe Publications, November 2012</li>
+<li align="justify">M.M.N.N. Jayasekara, K.B.R.G.T. Samarasinghe, D. Elkaduwe , R. G. Ragel, &#8220;Power Aware Instruction Scheduling for Microcontrollers&#8221;, International Journal of Scientific and Research Publications (IJSRP), Volume 2, Issue 10, October 2012.</li>
+<li align="justify">Mohammad Shihabul Haque, Roshan Ragel, Angelo Ambrose, Swarnalatha Radhakrishnan and Sri Parameswaran, &#8220;DIMSim: A Rapid Two-level Cache Simulation Approach for Deadline-based MPSoCs&#8221;, International Conference on Hardware/Software Codesign and System Synthesis 2012, Tampere, Findland, October 2012</li>
+<li align="justify">Upul Senanayake, Rahal Prabuddha and Roshan Ragel, &#8220;High Throughput Virtual Screening with Data Level Parallelism in Multi-core Processors&#8221;, 6th International Conference on Information and Automation for Sustainability (ICIAfS 12), 2012, Beijing, China, September 2012.</li>
+<li align="justify">Roshan Ragel, Swarnalatha Radhakrishnan and Angelo Ambrose, &#8220;Instruction-set Selection for Multi-application Based ASIP Design: an Instruction-level Study&#8221;, 6th International Conference on Information and Automation for Sustainability (ICIAfS 12), 2012, Beijing, China, September 2012.</li>
+<li align="justify">Darshana Jayasinghe, Roshan Ragel and Dhammika Elkaduwe, &#8220;Constant Time Encryption as a Countermeasure Against Remote Cache Timing Attack&#8221;, 6th International Conference on Information and Automation for Sustainability (ICIAfS 12), 2012, Beijing, China, September 2012 (won one of the BEST PAPER AWARDS).</li>
+<li align="justify">Jude A. Ambrose, Roshan G. Ragel and Sri Parameswaran, &#8220;Randomized Instruction Injection to Counter Power Analysis Attacks&#8221;, ACM Transactions on Embedded Computing Systems. Volume 11 Issue 3, September 2012 ACM New York, NY, USA.</li>
+<li align="justify">Sampath Deegalla, Henrik Bostrom and Keerthi Walgama, &#8220;Choice of Dimensionality Reduction Methods for Feature and Classifier Fusion with Nearest Neighbor Classifieri&#8221;, In Proceedings of the 15th International Conference on Information Fusioni, pages 875-881, IEEE Computer Society, 2012.</li>
+<li align="justify">Angelo Barnes, Ryan Fernando, Kasuni Mettananda and Roshan Ragel, &#8220;Improving the Throughput of the AES Algorithm with Multicore Processors&#8221;, Seventh International Conference on Industrial and Information Systems (ICIIS 2012), pp. 1-6, August 2012, Chennai, India</li>
+<li align="justify">Damayanthi Herath, Chathurika Lakmali, Roshan Ragel, &#8220;Accelerating String Matching for Bio-computing Applications on Multi-core CPUs&#8221;, Seventh International Conference on Industrial and Information Systems (ICIIS 2012), August 2012, Chennai, India</li>
+<li align="justify">Tuo Li, Roshan Ragel, Sri Parameswaran, &#8220;Reli: A HW/SW Checkpoint and Recovery Scheme for Embedded Processors&#8221;, in Proceedings of the Design, Automation and Test in Europe (DATE 2012) Conference, Dresdon, Germany, IEEE Press, pp. 875-880 , March 2012</li>
+</ol>
+<a href="" class="read-less">Read Less</a></div>
+<!--     <div class="excerpt">--><!--<a href="" class="read">Read More</a>  </div>-->
+
+
+    </article>
+
+	<hr>
+    <article class="tenant">
+        <div class="tenant-header">
+
+
+             <h1>2011</h1>
+            </div>
+
+<!--        <div  --><!-- class="entry-content cf">--><!--</div>-->
+
+
+        <div class="excerpt"><a href="" class="read">Read More</a>  </div>
+        <div id = 'rand5' class="entry-content cf"><ol>
+<li align="justify">M.A.S.M. Perera, W.D.S.S. Appuhami, A.N.P. Bandara and D.S. Deegalla, &#8220;Customizing WEKA for Visual Improvements in the output of J48 Decision Tree&#8221;, In Proceedings of the 8th Annual sessions of the Sri Lanka Association for Artificial Intelligence (SLAAI), pages 1&#8211;5, 2011.</li>
+<li align="justify">Vajira Thambawita, Kalindu Herath, Roshan Ragel and Dhammika Elkaduwe, &#8220;Building a Low-cost Telepresence Robot with Generic Hardware&#8221;, in Proceedings of the Annual Technical Conference of the IET-YPS Sri Lanka, Moratuwa, Sri Lanka, December 2011.</li>
+<li align="justify">Mouly Gunarathne, Rasika Bandara, Dhammika Elkaduwe and Roshan Ragel, &#8220;Eye Gaze Direction for Human Computer Interaction&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE) 2011, Sri Lanka, Vol. 16, pp , November 2011.</li>
+<li align="justify">Darshana Jayasinghe, Jayani Fernando, Roshan Ragel and Dhammika Elkaduwe, &#8220;Constant Time Encryption as a Countermeasure Against Remote Cache Timing Attack&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE) 2011, Sri Lanka, Vol. 16, pp , November 2011.</li>
+<li align="justify">Vajira Thambawita, Kalindu Herath, Roshan Ragel and Dhammika Elkaduwe, &#8220;Low Cost Telepresence Robot&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE) 2011, Sri Lanka, Vol. 16, pp , November 2011.</li>
+<li align="justify">A. Arora, S. Parameswaran, R. G. Ragel and D. Jayasinghe, &#8220;Hardware/Software Countemeasure and a Testing Framework for Cache based Side Channel Attacks&#8221; in Proceedings of the 8th IEEE International Conference on Embedded Software and Systems (IEEE ICESS 2011), Changsha, China, November, 2011</li>
+<li align="justify">S. Devapriya Dewasurendra, Sunil G. Abayaratne, Ajith Vidanapathirana, &#8220;DEVELOPMENT OF AN ELEVATOR PROTOTYPE FOR MULTI-DISCIPLINARY RESEARCH IN COMPLEX REACTIVE SYSTEMS&#8221;, Annual Transactions, Volume I, The Institution of Engineers, Sri Lanka, October, 2011.</li>
+<li align="justify">K. Patel, S. Parameswaran and R.G. Ragel, &#8220;Architectural Frameworks for Security and Reliability of MPSoCs&#8221;, IEEE Transactions on Very Large Scale Integration (VLSI) Systems, September 2011.</li>
+<li align="justify">A. Senevirathna, B. Wasala, B. Ranaweera, D. Elkaduwe, &#8220;Using microkernel based virtualization for Byzantine fault tolerance&#8221;, in Proceedings of the 6th International Conference on Industrial and Information Systems (ICIIS2011), Kandy, Sri Lanka, August 2011.</li>
+<li align="justify">Isuru Nawinne, Mahanama Wickramasinghe, Roshan Ragel and Swarnalatha Radhakrishnan, &#8220;Heterogeneous Processor Pipeline for a Product Cipher Application&#8221;, in Proceedings of the 6th International Conference on Industrial and Information Systems (ICIIS2011), pp 32-37, Kandy, Sri Lanka, August 2011.</li>
+<li align="justify">A.C. Vidanapathirana, S.D. Dewasurendra, S.G. Abeyratne, &#8220;Statechart Based Modeling and Controller Implementation of Complex Reactive Systems&#8221;, in Proceedings of the 6th International Conference on Industrial and Information Systems (ICIIS2011), Kandy, Sri Lanka, August 2011.</li>
+<li align="justify">H.P.A.P. Jayawardana, H.W.K.M. Amarasekara, P.T.S. Peelikumbura, W.A.K.C. Jayathilaka, S.G. Abeyaratne, S.D. Dewasurendra, &#8220;Design and Implementation of a Statechart Based Reconfigurable Elevator Controller&#8221;, in Proceedings of the 6th International Conference on Industrial and Information Systems (ICIIS2011), Kandy, Sri Lanka, August 2011.</li>
+<li align="justify">Janaka Alawatugoda, Roshan Ragel and Darshana Jayasinghe, &#8220;Countermeasures Against Bernstein&#8217;s Remote Cache Timing Attack&#8221;, in Proceedings of the 6th International Conference on Industrial and Information Systems (ICIIS2011), pp 43-48, Kandy, Sri Lanka, August 2011.</li>
+<li align="justify">Sugandima Vidanagamachchi, Roshan Ragel, Devapriya Dewasurendra and Niranjan Mahesan, &#8220;Tile Optimization for Area in FPGA Based Hardware Acceleration of Peptide Identification&#8221;, in Proceedings of the 6th International Conference on Industrial and Information Systems (ICIIS2011), pp 140-145, Kandy, Sri Lanka, August 2011.</li>
+<li align="justify">R.G. Ragel and S. Parameswaran, &#8220;A Hybrid Hardware Software Technique to improve Reliability in Embedded Processors,&#8221;, ACM Transactions on Embedded Computing Systems (TECS), 10.3, ACM New York, April 2011.</li>
+<li align="justify">Jude A. Ambrose, Roshan G. Ragel, Sri Parameswaran and Aleksandar Ignjatovic, &#8220;Multiprocessor Information Concealment Architecture to prevent Power Analysis based Side Channel Attacks&#8221;, IET Transactions on Computers &amp; Digital Techniques, Volume 5, Issue 1, pp 1-15, January 2011.</li>
+</ol>
+<a href="" class="read-less">Read Less</a></div>
+<!--     <div class="excerpt">--><!--<a href="" class="read">Read More</a>  </div>-->
+
+
+    </article>
+
+	<hr>
+    <article class="tenant">
+        <div class="tenant-header">
+
+
+             <h1>2010</h1>
+            </div>
+
+<!--        <div  --><!-- class="entry-content cf">--><!--</div>-->
+
+
+        <div class="excerpt"><a href="" class="read">Read More</a>  </div>
+        <div id = 'rand6' class="entry-content cf"><ol>
+<li align="justify">Darshana Jayasinghe, Jayani Fernando, Ranil Herath, and Roshan Ragel, &#8220;Remote Cache Timing Attack on Advanced Encryption Standard and Countermeasures&#8221;, in Proceedings of the 5th International Conference on Information and Automation for Sustainability (ICIAfS2010), pp 177-282, Colombo, Sri Lanka, December 2010.</li>
+<li align="justify">W Ishara Udeshika Cooray, D M Pathmasiri Abhayawickrama and Roshan G Ragel, &#8220;Real Time Interactive Lecture Delivery Sysem&#8221;, in Proceedings of the 5th International Conference on Information and Automation for Sustainability (ICIAfS2010), pp 91-96, Colombo, Sri Lanka, December 2010.</li>
+<li align="justify">Tilani Gunawardena, Medhavi Lokuhetti, Nishara Pathirana, Roshan Ragel and Sampath Deegalla, &#8220;An Automatic Answering System with Template Matching for Natural Language Questions&#8221;, in Proceedings of the 5th International Conference on Information and Automation for Sustainability (ICIAfS2010), pp 353-358, Colombo, Sri Lanka, December 2010.</li>
+<li align="justify">Shahina Ajward, Nalani Jayasundara, Sarasi Madushika and Roshan Ragel, &#8220;Converting Printed Sinhala Documents to Formatted Editable Text&#8221;, in Proceedings of the 5th International Conference on Information and Automation for Sustainability (ICIAfS2010), pp 138-143, Colombo, Sri Lanka, December 2010. (Best student paper award for ICT &amp; Social Transformation track).</li>
+<li align="justify">S. D. Dewasurendra, S. G. Abeyratne, A. Vidanapathirana. &#8220;Development of an Elevator Prototype for Multi-Disciplinary Research in Complex Reactive Systems&#8221;, in University of Peradeniya Research Sessions (PURSE-2010), The University of Peradeniya, Sri Lanka December 2010</li>
+<li align="justify">S.M. Vidanagamachchi, S.D. Dewasurendra, R.G. Ragel, M. Niranjan, &#8220;Automating Hardware Acceleration of String set Matching Using FPGA&#8221;, in Proceedings of the Peradeniya University Reearch Sessions (PURSE) 2010, Sri Lanka, Vol. 15, pp 627-629, December 2010.</li>
+<li align="justify">Tilani Gunawardena, Medhavi Lokuhetti, Nishara Pathirana, Roshan Ragel and Sampath Deegalla, &#8220;An Automatic Intelligent Answering System&#8221;, in Proceedings of the Peradeniya University Reearch Sessions (PURSE) 2010, Sri Lanka, Vol. 15, December 2010.</li>
+<li align="justify">S.M. Vidanagamachchi, S.D. Dewasurendra, R.G. Ragel, M. Niranjan, &#8220;Introduction to Basic Genetics and Hardware Acceleration of Protein Sequence Data Processing&#8221;, in Proceedings of the Peradeniya University Reearch Sessions (PURSE) 2010, Sri Lanka, Vol. 15, pp 630-632, December 2010.</li>
+<li align="justify">S. D. Dewasurendra (2010) &#8220;Faculty of Engineering, Peradeniya: Service to a Nation through 60 years of Research&#8221;. In J. J. Wijetunge (eds), The Faculty of Engineering, Peradeniya &#8211; A 60th Anniversary Portrait, 55-60 pages, Published by The University of Peradeniya,ISBN=9789555891448 (bookchapter)</li>
+<li align="justify">W.M.T.Vijayananda, K. Samarakoon and J. Ekanayake, &#8220;“Development of a Demonstration Rig for Providing Primary Frequency Response through Smart Meters&#8221;,”Proceedings of the 45th International Universities Power Engineering Conference (UPEC), 2010.</li>
+<li align="justify">R. G. Ragel, J.A. Ambrose, J. Peddersen and S. Parameswaram, &#8220;RACE: A Rapid, ArChitectural Simulation and Synthesis Framework for Embedded Processors&#8221;, IFIP Conference on Distributed and Parallel Embedded Systems (DIPES 2010), September 20-23, 2010, Brisbane, Australia.</li>
+<li align="justify">Dhanushka Krishnajith, Isuru Devinda and Roshan Ragel, &#8220;Optimized Chat Server Protocol for Server Side Scripting Languages&#8221;, International Conference on Industrial and Information Systems &#8211; 2010 (ICIIS 2010), NITK, Surathkal, Karnataka, India, July 29th-Aug 1st 2010.</li>
+<li align="justify">Gerwin Klein, June Andronick, Kevin Elphinstone, Gernot Heiser, David Cock, Philip Derrin, Dhammika Elkaduwe, Kai Engelhardt, Rafal Kolanski, Michael Norrish, Thomas Sewell, Harvey Tuch and Simon Winwood. &#8220;seL4: Formal verification of an OS kernel&#8221;. Communications of the ACM, 53(6), 107-115, June 2010.</li>
+<li align="justify">Jude A. Ambrose, Roshan G. Ragel, Sri Parameswaran and Aleksandar Ignjatovic, &#8220;Multiprocessor Information Concealment Architecture to prevent Power Analysis based Side Channel Attacks&#8221;, IET Transactions on Computers &amp; Digital Techniques, April 2010.</li>
+<li align="justify">R. Siyambalapitiya and M. Sandirigama. &#8220;Efficient Greedy Algorithm for Multi-Processor Scheduling&#8221;, in Journal on Software Engineering, Vol. 4, No. 2, April 2010.</li>
+<li align="justify">Tuo Li, Roshan Ragel and Sri Parameswaran, &#8220;Resil: A Resiliency Hardware/Software Framework for ASIPs&#8221;, in Proceedings of SELSE&#8217;10 , Stanford University, March 23rd and 24th, 2010.</li>
+</ol>
+<a href="" class="read-less">Read Less</a></div>
+<!--     <div class="excerpt">--><!--<a href="" class="read">Read More</a>  </div>-->
+
+
+    </article>
+
+	<hr>
+    <article class="tenant">
+        <div class="tenant-header">
+
+
+             <h1>2009</h1>
+            </div>
+
+<!--        <div  --><!-- class="entry-content cf">--><!--</div>-->
+
+
+        <div class="excerpt"><a href="" class="read">Read More</a>  </div>
+        <div id = 'rand7' class="entry-content cf"><ol>
+<li align="justify">A.K.B. Karunathilake, B.M.D. Balasuriya and R. G. Ragel, &#8220;User Friendly Line CAPTCHAs&#8221;, in Proceedings of the Fourth IEEE International Conference on Industrial and Information Systems (ICIIS&#8217;09) , Peradeniya, Sri Lanka, December 2009.</li>
+<li align="justify">Rajitha Navarathna, Swarnalatha Radhakrishnan and Roshan Ragel, &#8220;Loop Unrolling in Multi-pipeline ASIP Design&#8221;, in Proceedings of the Fourth IEEE International Conference on Industrial and Information Systems (ICIIS&#8217;09), Peradeniya, Sri Lanka, December 2009.</li>
+<li align="justify">K. Samarakoon and J. Ekanayake, &#8220;“A survey of frequency control methods and demand side contribution in Sri Lanka and in Great Britain&#8221;,” International Conference on Industrial and Information Systems (ICIIS) , 2009, pp. 454 -459.</li>
+<li align="justify">H.G.P.S.Kulathilake, R.M.R.S.Rathnayake, R.G. Ragel and S. Radhakrishnan, &#8220;SMS Based Vehicle Sharing System&#8221;, in Proceedings of the Peradeniya University Reearch Sessions (PURSE) 2009, Sri Lanka, Vol. 14, pp ???-???, December 2009.</li>
+<li align="justify">W.R.A.S.N. Bandara, A.A.M.M.E. Karunarathna, R.M.S.D. Rajapaksha and R. G. Ragel, &#8220;Internet Messenger System for Local Area Network&#8221;, in Proceedings of the Peradeniya University Reearch Sessions (PURSE) 2009, Sri Lanka, Vol. 14, pp ???-???, December 2009.</li>
+<li align="justify">D. Seneviratne, I. Sugathsiri, S. Udeshinie, R. G. Ragel and S. Radhakrishnan, &#8220;A Proof of Concept Application Framework for Mobile ERP Systems&#8221;, in Proceedings of the Peradeniya University Reearch Sessions (PURSE) 2009, Sri Lanka, Vol. 14, pp ???-???, December 2009.</li>
+<li align="justify">I. W. Kularatna, S. D. Dewasurendra (2009), &#8220;Performance Evaluation of Computer Integrated Manufacturing Systems&#8221;, Engineer Journal of the institution of Engineers, Sri Lanka (Submitted).</li>
+<li align="justify">Gerwin Klein, Kevin Elphinstone, Gernot Heiser, June Andronick, David Cock, Philip Derrin, Dhammika Elkaduwe, Kai Engelhardt, Rafal Kolanski, Michael Norrish, Thomas Sewell, Harvey Tuch and Simon Winwood &#8220;seL4: Formal verification of an OS kernel&#8221;, in Proceedings of the 22nd ACM Symposium on Operating Systems Principles, Big Sky, MT, USA, October, 2009</li>
+<li align="justify">M.N.A. Hinas, J. Nivethan, A. Neleththige, R.G. Ragel, &#8220;Feasibility Study of Multiseating on Clustered Computers&#8221;, in Proceedings of the Annual Technical Conference of the IET-YMS Sri Lanka , Ruhuna, Sri Lanka, October 2009.</li>
+<li align="justify">B.A.N.M. Bambarasinghe, H.M.S. Huruggamuwa, R.G. Ragel and S. Radhakrishnan, &#8220;AutoMark: An Automatic Assignment Marking Plug-in for Moodle&#8221;, in Proceedings of the Annual Technical Conference of the IET-YMS Sri Lanka, Ruhuna, Sri Lanka, October 2009.</li>
+<li align="justify">M.I. Fernando, B. Kajakaran, and V.P. Kumara, R.G. Ragel and S. Radhakrishnan, &#8220;Bluetooth Remote Controller for PC&#8221;, in Proceedings of the Annual Technical Conference of the IET-YMS Sri Lanka , Ruhuna, Sri Lanka, October 2009.</li>
+<li align="justify">M. Sandirigama and Rasika Idamekorala, &#8220;Security Weaknesses of WEP Protocol IEEE 802.11b and Enhancing the Security with Dynamic Keys&#8221;, in Proceedings of the IEEE Toronto International Conference &#8211; Science and Technology for Humanity (TIC-STH), September 26-27, 2009, Ryerson University, Toronto, Canada.</li>
+<li align="justify">K. Patel, S. Parameswaran and R.G. Ragel, &#8220;CUFFS: An Instruction Count based Architectural Framework for Security of MPSoCs&#8221;, in Proceedings of the Design, Automation and Test in Europe (DATE&#8217;09) Conference, Nice, France, IEEE Press, April 2009.</li>
+<li align="justify">R.G. Ragel and S. Parameswaran, &#8220;A Hybrid Hardware Software Technique to improve Reliability in Embedded Processors,&#8221; ACM Transactions on Embedded Computing Systems, Accepted for publication, March 2009.</li>
+<li align="justify">K. Samarakoon and J. Ekanayake, &#8220;“Demand side primary frequency response support through smart meter control,” Proceedings f the 44th International Universities Power Engineering Conference (UPEC), 2009, pp. 1 -5.</li>
+<li align="justify">S. Radhakrishnan, H. Guo, S. Parameswaran, and A. Ignjatovic, &#8220;HMP-ASIPs: Heterogeneous Multi-Pipeline Application Specific Instruction-set Processors&#8221;, IET Computers and Digital Techniques, Volume 3, Issue 1, pp: 94-108, January 2009</li>
+<li align="justify">&#8220;Security and Dependability of Embedded Systems: Computer Architects&#8217; Perspective&#8221;, J. Henkel, V. Narayanan, S. Parameswaran and R. G. Ragel, VLSI Conference 2009, Delhi, India &#8211; January 2009 (abstract of a full day tutorial).</li>
+</ol>
+<a href="" class="read-less">Read Less</a></div>
+<!--     <div class="excerpt">--><!--<a href="" class="read">Read More</a>  </div>-->
+
+
+    </article>
+
+	<hr>
+    <article class="tenant">
+        <div class="tenant-header">
+
+
+             <h1>2008</h1>
+            </div>
+
+<!--        <div  --><!-- class="entry-content cf">--><!--</div>-->
+
+
+        <div class="excerpt"><a href="" class="read">Read More</a>  </div>
+        <div id = 'rand8' class="entry-content cf"><ol>
+<li align="justify">K. Samarakoon, J. Ekanayake, and N. Jenkins, &#8220;“Development of Technical Concepts of DSP into smart meters,” Centre for Distributed Generation and Sustainable Electrical Energy&#8221;, Cardiff University, December 2008.</li>
+<li align="justify">B.A.N.M. Bambarasinghe, H.M.S. Huruggamuwa, R. G. Ragel and S. Radhakrishnan, &#8220;Axis2UNO: Web Services Enabled Openoffice.org&#8221;, in Proceedings of the 4th International Conference on Information and Automation for Sustainability (ICIAfS2008), December 2008, Colombo, Sri Lanka.</li>
+<li align="justify">H.M.R.D.B. Navarathna, S. Radhakrishnan and R.G. Ragel, &#8220;Effect of Loop Unrolling in Heterogeneous Multi-pipeline ASIPs&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE) 2008, Sri Lanka, Vol. 13, pp 189-192, December 2008.</li>
+<li align="justify">A. Aberatne, E. Bandara, N. Warnasuriya, R.G.Ragel and S. Radhakrishnan, &#8220;LANmanager: A Remote and Concurrent Management of Computers in LANs&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE) 2008, Sri Lanka, Vol. 13, pp 161-164, December 2008.</li>
+<li align="justify">J.M.N.C. Gunawardana, G.P. Ishara, R.G.Ragel and S. Radhakrishnan, &#8220;An Online Course Registration System for the Faculty of Engineering in Peradeniya&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE) 2008, Sri Lanka, Vol. 13, pp 173-176, December 2008.</li>
+<li align="justify">K.G.M.S.K. Jayawardana, T.N. Kadurugamuwa, R.G. Ragel and S. Radhakrishnan, &#8220;Timesheet: An Attendance Tracking System&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE) 2008, Sri Lanka, Vol. 13, pp 177-180, December 2008.</li>
+<li align="justify">S.D. Dewasudendra and S.W. Buthpitiya, &#8220;Static-Dynamic Verification of Reactive Systems using Synchorous Languages&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE) 2008, Sri Lanka, Vol. 13, pp 169-172, December 2008.</li>
+<li align="justify">C. Munasinghe and M. Sandirigama, &#8220;Security Analysis of SAS 3 &#8211; v1 Strong Password Authentication Protocol&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE) 2008, Sri Lanka, Vol. 13, pp 183-185, December 2008.</li>
+<li align="justify">D.M.A.B. Mailewa, S.P.J. Perera, C.A. Munasinghe and T.D.B. Weerasinghe, &#8220;Types and Modes Combined Algorithm for Data Encryption and Decryption&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE) 2008, Sri Lanka, Vol. 13, pp 181-182, December 2008.</li>
+<li align="justify">C. Munasinghe and S.W. Buthpitiya, &#8220;Enhancing the Security of Authentication in Unix/Linux Systems with PAM&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE) 2008, Sri Lanka, Vol. 13, pp 186-188, December 2008.</li>
+<li align="justify">S.W. Buthpitiya and C.A. Munasinghe, &#8220;Real-Time Ray-Tracing with Refraction&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE) 2008, Sri Lanka, Vol. 13, pp 165-168, December 2008.</li>
+<li align="justify">V. Sivalingam, V. Vijayasingam, S. Radhakrishnan and R.G. Ragel, &#8220;An Automatic Scheduler for Heterogeneous Multi-pipeline ASIPs&#8221;, in Proceedings of the Annual Technical Conference of the IET-YMS Sri Lanka, Moratuwa, Sri Lanka, August 2008.</li>
+<li align="justify">C.A Munasinghe, C.B Hatharaliyadda, M. Sandirigama and K.B.N Ratnayake, &#8220;Feasibility Study for Low-cost IP-PBX baseTelephony Syst&#8221;em, in Proceedings of the Annual Technical Conference of the IET-YMS Sri Lan, Moratuwa, Sri Lanka, August 2008.</li>
+<li align="justify">U. Bulumulla, R. Navarathna and G. Munasinghe and L. Ariyananda, &#8220;Determining Capital Market Efficiency in the Colombo Stock Exchange (CSE) using Technical Analysis and the Artificial Neural Networks&#8221;, in the Second International Symposium at the University of Subragamuwa, July 2008, Sri Lanka.</li>
+</ol>
+<a href="" class="read-less">Read Less</a></div>
+<!--     <div class="excerpt">--><!--<a href="" class="read">Read More</a>  </div>-->
+
+
+    </article>
+
+	<hr>
+    <article class="tenant">
+        <div class="tenant-header">
+
+
+             <h1>2007</h1>
+            </div>
+
+<!--        <div  --><!-- class="entry-content cf">--><!--</div>-->
+
+
+        <div class="excerpt"><a href="" class="read">Read More</a>  </div>
+        <div id = 'rand9' class="entry-content cf"><ol>
+<li align="justify">I. Kahanda and U. Kanewala, &#8220;An Algorithm for Automatic Playlist Generation in Radio Stations&#8221;, in , Proceedings of the Peradeniya University Research Session (PURSE) 2007, Peradeniya, Sri Lanka, Vol. 12, November 2007.</li>
+<li align="justify">S. Radhakrishnan and R.G.Ragel, &#8220;Full Instruction Encoding for Heterogeneous Multi Pipeline Application Specific Instruction-set Processors&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE 2007), Sri Lanka, Vol. 12, pp 230-233, November 2007.</li>
+<li align="justify">I. Herath and R.G. Ragel, &#8220;Implementation of an Electronic Tuner in J2ME using Fast Fourier Transform&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE 2007), Sri Lanka, Vol. 12, pp 227-229, November 2007.</li>
+<li align="justify">I. Herath and R.G. Ragel, &#8220;Side Channel Attacks: Measures and Countermeasures&#8221;, in Proceedings of the 14th Annual Conference of the IET Sri Lanka Network &#8211; Sri Lanka, Sri Lanka, October 2007.</li>
+<li align="justify">S.W. Buthpitiya, Y. Kishanthan, M.M.D. Sriyananda and M. Sandirigama, &#8220;Real-time Ray Tracing&#8221; in Proceedings of the Annual Technical Conference of the IET-YMS Sri Lanka, Peradeniya, Sri Lanka, September 2007.</li>
+<li align="justify">Isuru Herath, Roshan Deniyage, R. G. Ragel and Manjula Sandirigama, &#8220;Document Streaming to Mobile Devices&#8221;, in Proceedings of the Annual Technical Conference of the IET-YMS Sri Lanka, Peradeniya, Sri Lanka, September 2007.</li>
+<li align="justify">Isuru Herath and R. G. Ragel, &#8220;Side Channel Attacks: A Reality&#8221;, in Proceedings of the Annual Technical Conference of the IET-YMS Sri Lanka, Peradeniya, Sri Lanka, September 2007.</li>
+<li align="justify">Indika Kahanda, Upulee Kanewala, K.S. Walgama and R.G. Ragel, &#8220;PlayGen: A Hybrid Playlist Generator&#8221;, in Proceedings of the Annual Technical Conference of the IET-YMS Sri Lanka, Peradeniya, Sri Lanka, September 2007.</li>
+<li align="justify">N. Weragama and M. Sandirigama, &#8220;SAS 3 &#8211; A Polynominal Based Password Authentication&#8221;, in ICIIS 2007, Peradeniya, Sri Lanka, August 2007.</li>
+<li align="justify">K. Samarakoon, &#8220;Mechanisms for timing optimization and reliability of a fast Data Acquisition System&#8221;, Proceedings of the IEEE International Conference on Industrial and Information Systems , pp 435-440, August 8-11, 2007.</li>
+<li align="justify">K. Samarakoon, &#8220;Automatic Data Acquisition System for Industria Process Monitoring and Diagnostics&#8221;, Annual Transactions of Institution of Engineers, Central Provincial Centre, Sri Lanka, pp 42-49, 2007</li>
+<li align="justify">K. Samarakoon, &#8220;Wake up call: Sustainability of the State-of-the-art utility SCADA Systes&#8221;, Annual Transactions of Institution of Engineers, Sri Lanka, Vol1 – Part B, pp 181-185, 2007</li>
+</ol>
+<a href="" class="read-less">Read Less</a></div>
+<!--     <div class="excerpt">--><!--<a href="" class="read">Read More</a>  </div>-->
+
+
+    </article>
+
+	<hr>
+    <article class="tenant">
+        <div class="tenant-header">
+
+
+             <h1>2006</h1>
+            </div>
+
+<!--        <div  --><!-- class="entry-content cf">--><!--</div>-->
+
+
+        <div class="excerpt"><a href="" class="read">Read More</a>  </div>
+        <div id = 'rand10' class="entry-content cf"><ol>
+<li align="justify">N. Weragama and M. Sandirigama, &#8220;Case Study on Password Authentication Protocols&#8221;, in Proceedings of the Peradeniya University Research Sessions (PURSE 2006), Sri Lanka, Vol. 11, November 2006.</li>
+</ol>
+<a href="" class="read-less">Read Less</a></div>
+<!--     <div class="excerpt">--><!--<a href="" class="read">Read More</a>  </div>-->
+
+
+    </article>
+
+	<hr></div>
+
+  <script type="text/javascript">
+      $( window ).load(function() {
+          $("a.read:first").hide();
+         // alert( "window loaded" );
+          $("#rand1").show();
+          $("a.read-less").click(function(){
+              $("a.read:first").show();
+          });
+      });
+
+  </script>
+
+
+</div>
+	
+	
+	
+
+    </div>
+    <!-- end container -->
+
+    <!-- footer -->
+	<div id="includedContent3" ></div>
+
+
+
+    <!-- All Javascript at the bottom of the page for faster page loading -->
+
+    <!-- First try for the online version of jQuery-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+
+    <!-- If no online access, fallback to our hardcoded version of jQuery -->
+    <script>
+        window.jQuery || document.write('<script src="includes/js/jquery-1.9.1.min.js"><\/script>')
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="includes/js/script.js"></script>
+</body>
+
+</html>

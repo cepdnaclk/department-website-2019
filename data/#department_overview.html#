@@ -1,0 +1,125 @@
+        <div class="container innerpage" >
+            
+            <article class="custom-inner-article">
+                <div class="about_bg_image" >
+                   
+                    <h1>Department of Computer Engineering</h1>
+                    
+               
+                </div>
+                <div style="width:800px;text-align:center;margin:auto;margin-top:20px;">
+                                   <p style="padding-left:30px;padding-right:30px;padding-top:20px;text-align:justify;">Welcome to the Department of Computer Engineering at the University of Peradeniya. Computer Engineering department is renowned for the quality and intensity of its educational experience. At present, the department is mostly involved in teaching under graduate courses for Computer Engineering students. We believe that the information you find here are useful to you.<br /> <br />
+
+The Department of Computer Engineering was established in the Faculty of Engineering in Peradeniya in 1985. Although it is the youngest department in the Faculty, it is the oldest Computer Engineering Department to be established in the University system of the country. The main function of the department initially was to conduct programming courses to the students in all disciplines of the Faculty. Over the years the department has developed into a fully-fledged department and it now offers several courses in Computer Engineering to the students.<br /> <br />
+
+The demand from the students for Computer Engineering has been high and a limited number is admitted to follow it. The graduates who have speciallized in Computer Engineering are highly sought after by local as well as foreign employers. In view of the good employment prospects for Computer Engineering graduates and the large demand from the students, the department has initiated a degree programme leading to the B.Sc. Eng. degree in Computer Engineering from year 2001. The Department has also been building up its resources and now has state of the art technology in networking, degital design, embedded systems and computer interfacing.<br /> <br />
+
+In the current trend of Computer Engineering and Information Technology teaching, there is a tendency to teach the details of the latest technology so students will have the latest in-demand skills. However, with the speed of changes in the target industry of these students, such skills will soon be out-of-date and therefore at the department, we believe that a much better approach is to teach the students the foundations of Computer Engineering and Information Technology – principles that will allow them to adapt to the inevitable changes in technology.<br /><br />
+
+We always look forward to welcoming aspiring Engineering undergraduates to the Wonderful World of Computer Engineering.
+                
+                
+                
+                
+                </p>
+                
+                
+                </div>
+
+
+            </article>
+        </div>
+        <div class="container" style="background-color:#070707;">
+
+            <div class="row" id="mainBody">
+                <!--	<div class="col-xs-4 right-side">
+					
+						<h4 class="media_heading">news & events</h4>
+						<ul class="b">
+							<li style ="line-height:60%"><span  >Romance is the eighth studio album by Mexican singer Luis Miguel (pictured), released by WEA Latina in 1991.</span></li>
+							<li style ="line-height:60%"><span  >Romance is the eighth studio album by Mexican singer Luis Miguel (pictured), released by WEA Latina in 1991.</span>
+							</li>
+						
+							<span style="float:right;color:#1A4A69;">2014-3-2</span>
+							<br/>
+						</ul>
+  					
+						
+					
+					
+					
+					</div>
+					<div class="col-xs-4 right-side">
+					
+						
+						<h4 class="media_heading">research and collaboration </h4>
+						<ul class="b">
+							<li style ="line-height:60%"><span  >Romance is the eighth studio album by Mexican singer Luis Miguel (pictured)</span></li>
+														
+							
+							<li style ="line-height:60%"><span  >Romance is the eighth studio album by Mexican singer Luis Miguel (pictured), released by WEA Latina in 1991. At the suggestion of his manager</span>
+							</li>
+							<span style="float:right;color:#1A4A69;">2015-4-4</span>
+							<br/>
+						</ul>
+  						
+							
+					
+					
+					
+					</div>
+					<div class="col-xs-4 left-side">
+					
+						
+						<h4 class="media_heading">industrial partnership </h4>
+						<ul class="b">
+							<li style ="line-height:60%"><span  >Romance is the eighth studio album by Mexican singer Luis Miguel (pictured), released by WEA Latina in 1991. At the suggestion of his manager</span></li>
+														
+							
+							<li style ="line-height:60%"><span  >Romance is the eighth studio album by Mexican singer </span>
+							</li>
+														<span style="float:right;color:#1A4A69;">2014-8-9</span>
+							<br/>
+						</ul>
+  						
+							
+					
+					
+					
+					</div>
+					
+			
+				<div class="col-sm-4 left-side">
+									<h4 class="media_head">industrial partnership </h4>
+						<ul class="b">
+							<li style ="line-height:60%"><span  >Romance is the eighth studio album by Mexican singer Luis Miguel (pictured), released by WEA Latina in 1991. At the suggestion of his manager</span></li>
+														
+							
+							<li style ="line-height:60%"><span  >Romance is the eighth studio album by Mexican singer </span>
+							</li>
+														<span id="labelSpan" >2014-8-9</span>
+							<br/>
+						</ul>						
+						</div>
+  						<div class="col-sm-4">
+									<h4 class="media_head">industrial partnership </h4>
+						<ul class="b">
+							<li style ="line-height:60%"><span  >Romance is the eighth studio album by Mexican singer Luis Miguel (pictured), released by WEA Latina in 1991. At the suggestion of his manager</span></li>
+														
+							
+							<li style ="line-height:60%"><span  >Romance is the eighth studio album by Mexican singer </span>
+							</li>
+														<span id="labelSpan" >2014-8-9</span>
+							<br/>
+						</ul>  						
+  						</div>
+-->
+
+
+
+            </div>
+
+
+
+        </div>
+        <!--end main -->

@@ -1,0 +1,226 @@
+
+<style>
+
+.dropdown-submenu {
+    position: relative;
+	opacity: .9;
+}
+.dropdown-menu {
+	opacity: .9;
+}
+.dropdown-menu li a{
+	color:black;
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+
+
+.about_bg_image h1{
+	color: white;
+    text-shadow: 0 0 20px #000;
+	}
+@media screen and (max-width:768px){
+    .dropdown-submenu>.dropdown-menu {
+        left: 0px !important;
+        top: 40px !important;
+    }
+}
+
+</style>
+
+        <div class="navbar navbar-fixed-top custom_navbar">
+            <div class="container ">
+
+                <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a href="" class="pull-left" style="width: 40%;"><div class="custom_logo"></div> </a>
+
+                <div class="nav-collapse collapse navbar-responsive-collapse  ">
+
+
+                    <ul class="nav navbar-nav pull-right custom_main_menu" id="navBar" style="">
+
+                        <!-- <form class="navbar-form pull-right" style="margin-bottom:0;margin-top:20px;margin-right:20px;" id="searchForm">
+                            <input type="text" placeholder="Search..." required>
+                            <input type="button" value="Search">
+                        </form> -->
+                        <!-- end navbar-form -->
+                        <li class="menu_down">
+                            <a href="index.html"><span class="menu_color" >Home</span></a>
+                        </li>
+                        <li class="divider-vertical"></li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="menu_color">About</span><strong class="caret"></strong></a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="vision_and_mission.html">Vision and Mission</a>
+                                </li>
+
+                                <li>
+                                    <a href="department_overview.html">Department History</a>
+                                </li>
+
+                                <li>
+                                    <a href="contact.html">Contact us</a>
+                                </li>
+                            </ul>
+                            <!-- end dropdown-menu -->
+                        </li>
+                        <li class="divider-vertical "></li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle  " data-toggle="dropdown"><span class="menu_color">Research</span><strong class="caret"></strong></a>
+
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="publications.html">Publications</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.ce.pdn.ac.lk/ESCaPe/" target="_blank">Final year projects</a>
+                                </li>
+
+                                <li>
+                                    <a href="ResearchGroup.html">Research Group</a>
+                                </li>
+
+                            </ul>
+                            <!-- end dropdown-menu -->
+                        </li>
+                        <li class="divider-vertical "></li>
+                        <li class="dropdown ">
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown"><span class="menu_color">People</span><strong class="caret"></strong></a>
+
+                            <ul class="dropdown-menu multi-level">
+                                <li>
+                                    <a href="staff.html#academic">Academic Staff</a>
+                                </li>
+
+                                <li>
+                                    <a href="nonacademic.html">Non Academic Staff</a>
+                                </li>
+								
+								 <li class="dropdown-submenu">
+										<a tabindex="-1" >Students</a>
+										<ul class="dropdown-menu">
+										  <li><a href="e13Students.html">E13 Students</a></li>
+										  <li><a href="e12Students.html">E12 Students</a></li>
+										  <li><a href="e11Students.html">E11 Students</a></li>
+										  <li><a href="e10Students.html">E10 Students</a></li>
+										</ul>
+									  </li>
+
+                            </ul>
+                            <!-- end dropdown-menu -->
+                            <!-- end dropdown-menu -->
+                        </li>
+                        <li class="divider-vertical "></li>
+                        <li>
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown"><span class="menu_color">Facilities & Resources</span><strong class="caret"></strong></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="CRISL.html">CRISL</a>
+                                </li>
+                                <li>
+                                    <a href="computer_systems.html">Computer Systems</a>
+                                </li>                                
+                                <li>
+                                    <a href="EMIL.html">EMIL</a>
+                                </li>
+                                <li>
+                                    <a href="ESCAL.html">ESCAL</a>
+                                </li>
+                                <li>
+                                    <a href="Crypto.html">Crypto</a>
+                                </li>
+                                <!--li>
+                                    <a href="Intelligent_systems.html">Intelligent systems</a>
+                                </li-->
+                                <li>
+                                    <a href="GPU.html">GPU</a>
+                                </li>
+                                <li>
+                                    <a href="Optical.html">Optical</a>
+                                </li>
+                                <li>
+                                    <a href="Wireless.html">Wireless</a>
+                                </li>
+                                <li>
+                                    <a href="Data_mining.html">Data mining</a>
+                                </li>
+                                <li>
+                                    <a href="Image_processing.html">Image processing</a>
+                                </li>
+                                <li>
+                                    <a href="IoT.html">IoT</a>
+                                </li>
+                            </ul>
+                            <!-- end dropdown-menu -->
+                        </li>
+                        <li class="divider-vertical "></li>
+                        <li>
+                            <a href="#" class="dropdown-toggle " data-toggle="dropdown"><span class="menu_color">Teaching</span><strong class="caret"></strong></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                     <a href="undergraduate_courses.html">Undergraduate courses</a>
+                                </li>
+
+                            </ul>
+                            <!-- end dropdown-menu -->
+                        </li>
+                    </ul>
+
+
+                </div>
+                <!-- end nav-collapse -->
+
+            </div>
+            <!-- end container -->
+        </div>
+ <!-- end navbar -->

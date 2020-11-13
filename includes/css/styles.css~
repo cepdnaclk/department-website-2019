@@ -1,0 +1,574 @@
+
+/*
+	Author:Isuru Sameera Sandaruwan
+			Faculty of Engineering
+			University of Peradeniya
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+ .custom_logo{
+	height: 55px;
+	width: 60px;
+	margin-bottom: 0px;
+	margin-top: 10px;
+	padding: 0px;
+	margin-left: 5px;
+}
+.custom_main_menu li a{
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+ .custom_main_menu{
+	margin-bottom: 10px;
+	padding: 0;
+	margin-top:0;
+
+}
+
+.custom_nav_items{
+	/*background-color: black;*/
+	height: 20px;
+	
+
+}
+.custom_navbar{
+	height: 105px;
+	border: 0px;
+}
+
+
+.navbar .divider-vertical {
+height: 20px;
+margin: 0;
+margin-top: 10px;
+border-left: 1px solid #079AEA;
+border-right: 0px solid #079AEA;
+border-color: #079AEA ;
+}
+
+ .divider-vertical-footer {
+height: 20px;
+margin: 30px 9px 0;
+border-left: 1px solid #079AEA;
+border-right: 0px solid #079AEA;
+}
+
+.custom_nav_items_border{
+	margin-bottom: 0;
+	margin-top: 0; 
+}
+.active{
+	color:red;
+}
+.custom_navbar{
+	border: 0px;
+	background-color: black;
+
+}
+
+.menu_down{
+	margin: 0;
+}
+
+.menu_color{
+	color:#079AEA;
+}
+
+html, body {
+	height:100%;
+	margin:0;
+	padding:0;
+}  
+   
+/*custom footer styles*/
+
+.foot_align_right{
+		text-align: right;
+}
+.foot_align_left{
+		text-align: left;
+		padding-left: 25px;
+}
+.foot_align_right a{
+	padding-right: 5px;
+	border-style:solid;
+	border-width: 0px;
+	border-right-width:1px;
+	border-color:white;
+
+}
+.no_border{
+	backface-visibility: hidden;
+}
+.custom_footer{
+	background-color: black;
+	 border-top-style: solid;
+	 border-top-color: white;
+    border-top-width: 1px;
+    height: auto;
+	color: #079AEA;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}   
+.custom_footer_container{
+	border: 5px ;
+	padding: 0px;
+	
+}   
+   
+.right-side {
+  
+    float: none;
+    display: table-cell;
+    border: 0px solid;
+	border-right-width:1px;
+	border-color:white;
+}   
+   
+.media_heading{
+color:#079AEA;
+
+}   
+.media_head{
+	padding-left:10px;
+	color:#079AEA;
+} 
+    
+ul.b{
+	 list-style-type: none;
+	padding-left:10px;
+	margin-left:0px;
+}   
+   #labelSpan{
+float:right;
+color:#1A4A69;
+margin-right: 5px;
+
+}
+ul.b li span {font-size:12px;color:white; vertical-align: middle;}
+ul.b li {
+    /*
+     * We want the bullets outside of the list,
+     * so the text is aligned. Now the actual bullet
+     * is outside of the list’s container
+     */
+     vertical-align: middle;
+	 margin-left:0px;
+	list-style-type: square;
+    list-style-position: outside;
+    font-size:28px;;
+	color:#079AEA;
+    /*
+     * Because the bullet is outside of the list’s
+     * container, indent the list entirely
+     */
+    margin-left: 1em;
+}   
+   
+   
+
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+#inputMessage {
+	margin-bottom: 15px;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+.well .page-header {
+	margin-top: 0;
+}
+
+.well .page-header h1 {
+	margin-top: 0;
+}
+
+ul.unstyled {
+	list-style: none;
+	padding: 0;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#searchInput {
+	width: 200px;
+}
+
+
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+html, body {
+	height:100%;
+	margin:0;
+	padding:0;
+}
+/*.carousel, .item, .active {
+height:400px;
+}*/
+.carousel-inner {
+height:auto;
+}
+
+.carousel {
+	 height:auto;
+	width: auto;
+}
+
+/*
+
+.carousel-caption {
+	font-size:1vw;
+	
+	 left: 10px;
+    right: auto;
+    background-color: black;
+    opacity: 0.6;
+    text-align: left;
+    padding: 10px;
+    height: 38%;
+    width: 45%;
+}
+
+
+
+.item{
+	height: 10%;
+}
+*/
+.content{
+border-width:0;border-right-width:1px;border-style:solid;border-color:white;
+padding:20px;padding-top:0px;padding-bottom:0px;margin-bottom:20px;margin-top:20px;
+
+}
+
+
+#thumbnail1{
+
+	background-color: white;
+
+	background: transparent;
+
+}
+#thumbnail2{
+	
+	background-color: white;
+
+	background: transparent;
+}
+#thumbnail3{
+
+	background-color: white;
+
+	background: transparent;
+}
+
+.carousel-caption {
+    left: 10px;
+    right: auto;
+    background-color: black;
+    opacity: 0.6;
+    text-align: left;
+    padding: 10px;
+}
+.item{
+	height: 400px;
+}
+/*
+.carousel{
+   height: 400px;
+	width: auto;
+
+}
+*/
+
+.h4_color{
+color: #049FF2;
+
+}
+
+
+.carousel-indicators {
+	right:20px;
+	left: auto;
+	width: 50px;
+
+}
+
+
+.carousel-indicators li {
+  background-color: #079AEA;
+
+}
+
+
+.carousel-indicators .active {
+  background-color: green;
+}
+
+
+
+
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+   
+   
+   
+@media (max-width: 992px) {
+   .collapse {
+       display: none !important;
+   }
+   .custom_main_menu li a{
+	padding: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+}
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	.content{
+		border-width: 0px;	
+	
+	}
+	.navbar .divider-vertical {
+		height: 0px;
+		margin: 0;
+		padding: 0;
+		border-left: 0px solid #079AEA;
+		}
+		
+		.custom_nav_items_border{
+			margin-bottom: 0;
+			margin-top: 0;
+	
+   
+		}
+		#navBar{
+			background-color: black;		
+		}	
+		.carousel-caption {
+			font-size:8px;
+		}
+	   .h4_color{
+			font-size:12px;
+
+		}	
+		
+}
+
+
+
+
+.left-side {
+    
+   float: none;
+
+   border: 0px  solid;
+	border-left-width:1px;
+	border-color:white;
+}
+
+
+
+@media (max-width: 991px) {
+  .content{
+		border-width: 0px;	
+	
+	}
+
+  
+   
+}
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+	.content{
+		border-width: 0px;	
+	
+	}
+	.navbar .divider-vertical {
+		height: 0px;
+		margin: 0;
+		padding: 0;
+		border-left: 0px solid #079AEA;
+		}
+		
+		.custom_nav_items_border{
+			margin-bottom: 0;
+			margin-top: 0;
+	
+   
+		}
+		#navBar{
+			background-color: black;		
+		}
+	
+	#myCarousel .item { height: 310px; }
+	
+	#slide1 {
+		background: url('../../images/carousel_small_01.jpg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../../images/carousel_small_02.jpg') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../../images/carousel_small_03.jpg') top center no-repeat;
+	}
+	
+#searchForm{
+	margin-left: 0;
+}
+	
+}
+
+
+
+
+@media (min-width: 800px) {
+	
+	#myCarousel .item { height: 310px; }
+	
+	#slide1 {
+		background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../../images/carousel_large_02.jpg') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../../images/carousel_large_03.jpg') top center no-repeat;
+	}
+
+}
+
+@media (max-width: 800px) {
+	
+	#myCarousel .item { height: 310px; }
+	
+	#slide1 {
+		background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../../images/carousel_large_02.jpg') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../../images/carousel_large_03.jpg') top center no-repeat;
+	}
+	
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myCarousel .item { height: 500px; }
+	
+	#slide1 {
+		background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+	}
+	
+	#slide2 {
+		background: url('../../images/carousel_large_02.jpg') top center no-repeat;
+	}
+	
+	#slide3 {
+		background: url('../../images/carousel_large_03.jpg') top center no-repeat;
+	}
+
+}
+
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #000;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: red; /*BACKGROUND color for active*/
+background-color: #030033;
+}
+
+  .navbar-default {
+    background-color: #0f006f;
+    border-color: #030033;
+}
+
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+    color: #262626;
+   text-decoration: none;
+  background-color: #66CCFF;  /*change color of links in drop down here*/
+   }
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: none; /*Change rollover cell color here*/
+  }
+
+
+  .navbar-default .navbar-nav > li > a {
+   color: red; /*Change active text color here*/
+    }
+
+
+.search {
+                padding:8px 15px;
+                background:rgba(50, 50, 50, 0.2);
+                border:0px solid #dbdbdb;
+}
+.button {
+                position:relative;
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#207cca;
+                color:#fafafa;
+}
+.button:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+}

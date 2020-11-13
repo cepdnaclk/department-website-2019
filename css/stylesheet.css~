@@ -1,0 +1,269 @@
+
+/*
+	Author:Isuru Sameera Sandaruwan
+			Faculty of Engineering
+			University of Peradeniya
+*/
+
+/*custom body styles*/
+/*.container{
+width:900px;
+
+}*/
+.row_disp {
+    display: table;
+    background-color: green;
+}
+
+.left-side {
+    
+    float: none;
+    display: table-cell;
+    border: 0px  solid;
+	border-left-width:1px;
+	border-color:white;
+}
+
+.right-side {
+  
+    float: none;
+    display: table-cell;
+    border: 0px solid;
+	border-right-width:1px;
+	border-color:white;
+}
+
+.media_heading{
+color:#079AEA;
+
+}
+
+
+body{
+	
+
+}
+/*custom main container style*/
+ul.b{
+	 list-style-type: none;
+	padding-left:0px;
+	margin-left:0px;
+}
+
+
+
+ul.b li span {font-size:12px;color:white;}
+ul.b li {
+    /*
+     * We want the bullets outside of the list,
+     * so the text is aligned. Now the actual bullet
+     * is outside of the list’s container
+     */
+	 margin-left:0px;
+	list-style-type: square;
+    list-style-position: outside;
+    font-size:28px;;
+	color:#079AEA;
+    /*
+     * Because the bullet is outside of the list’s
+     * container, indent the list entirely
+     */
+    margin-left: 1em;
+}
+.custom_main{
+	background-color: white;
+	height: auto;
+	padding: 0px;
+}
+
+.carousel_img{
+		margin:0px;
+}
+
+/* custom navbar styles*/
+
+.custom_navbar{
+	height: 30px;
+	border: 0px;
+
+}
+
+.h4_color{
+color: #049FF2;
+font-size: 2vw;
+}
+.custom_menu {
+	float: right;
+}
+/* custom main frame styles */
+.custom_main_frame{
+
+
+}
+/*custom footer styles*/
+.custom_footer{
+	background-color: black;
+	 border-top-style: solid;
+	 border-top-color: white;
+    border-top-width: 1px;
+    height: auto;
+	color: #079AEA;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.col-xs-4{
+	margin-bottom: 20px;
+
+
+}
+
+.custom_footer_container{
+	border: 5px ;
+	padding: 0px;
+	
+}
+
+.custom_logo{
+	height: 55px;
+	width: 60px;
+	margin-bottom: 5px;
+	margin-top: 7px;
+}
+.custom_nav_items{
+	/*background-color: black;*/
+	height: 20px;
+	
+
+}
+.navbar .divider-vertical {
+height: 20px;
+margin: 30px 9px 0;
+border-left: 1px solid #079AEA;
+border-right: 0px solid #079AEA;
+}
+
+.custom_nav_items_border{
+	margin-bottom: 0;
+	margin-top: 15px;
+	
+   
+}
+.menu_down{
+	padding-bottom:0;
+	margin-bottom:0;
+	color: #079AEA;
+}
+
+.menu_color{
+	color:#079AEA;
+}
+
+html, body {
+	height:100%;
+	margin:0;
+	padding:0;
+}
+/*.carousel, .item, .active {
+height:400px;
+}*/
+.carousel-inner {
+height:auto;
+}
+.carousel {
+	 height:auto;
+	width: auto;
+}
+/*
+.carousel-caption {
+	font-size: 1vw;
+	 z-index: 10;
+	 left: 10px;
+    right: auto;
+    background-color: black;
+    opacity: 0.6;
+    text-align: left;
+    padding: 10px;
+    height: 20%;
+    width: 40%;
+}
+.item{
+	height: 10%;
+}
+*/
+
+.carousel-caption {
+    left: 10px;
+    right: auto;
+    background-color: black;
+    opacity: 0.6;
+    text-align: left;
+    padding: 10px;
+}
+.item{
+	height: 400px;
+}
+.carousel{
+   height: 400px;
+	width: auto;
+
+}
+
+.carousel-indicators {
+	right:20px;
+	left: auto;
+	width: 50px;
+
+}
+
+
+.carousel-indicators li {
+  background-color: #079AEA;
+
+}
+
+
+.carousel-indicators .active {
+  background-color: green;
+}
+
+.media-body{
+padding: 5px;
+
+}
+
+.media-body span{
+	color: white;
+
+}
+
+.media_back_color{
+	background-color: black;
+	padding-bottom: 30px;
+	padding-top: 30px;
+
+}
+.column_border{
+	border-color: #079AEA;
+	border-width: 0px;
+	border-left-width: 1px ;
+	height:inherit;
+	border-style: solid;
+
+}
+.foot_text_align{
+		text-align: left;
+		
+
+}
+
+
+.carousel{
+margin-top: 65px;
+}
+/*@media only screen and (max-width: 320px) {
+
+   body { font-size: 2em; }
+
+}
+*/
+
